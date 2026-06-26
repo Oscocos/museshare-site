@@ -1,4 +1,4 @@
-/* MuseShare site — clean Apple-white, single scroll. */
+
 
 :root {
   --bg: #ffffff;
@@ -6,7 +6,7 @@
   --ink: #1d1d1f;
   --ink-soft: #6e6e73;
   --hairline: #e6e6e9;
-  --accent: #6e56cf; /* subtle brand purple */
+  --accent: #6e56cf; 
   --maxw: 760px;
   --radius: 18px;
 }
