@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MuseShare — Pass a song. Watch it resonate.</title>
+  <title>MuseShare. Pass a song, watch it resonate.</title>
   <meta
     name="description"
-    content="MuseShare lets you pass one song link and your friends open it on their platform of choice — while your shared music grows a living identity."
+    content="MuseShare lets you pass one song link and your friends open it on their platform of choice, while your shared music grows a living identity."
   />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -16,8 +16,10 @@
       <a class="wordmark" href="#top">MuseShare</a>
       <nav class="nav-links">
         <a href="#about">About</a>
+        <a href="#how-it-works">How it works</a>
         <a href="#privacy">Privacy</a>
         <a href="#terms">Terms</a>
+        <a href="#credits">Credits</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -28,9 +30,9 @@
     <section class="hero">
       <h1>Pass a song.<br />Watch it resonate.</h1>
       <p class="hero-sub">
-        Share one link — Spotify, Apple Music, anywhere — and your friends open it
-        on their platform of choice. The music you pass quietly grows a living
-        identity that's yours alone.
+        Share one link from Spotify, Apple Music, or anywhere else, and your
+        friends open it on their platform of choice. The music you pass quietly
+        grows a living identity that's yours alone.
       </p>
     </section>
 
@@ -41,11 +43,11 @@
         MuseShare is a small, focused way to share music with people you care about.
         Paste a link from any major streaming service and we resolve the matching
         song everywhere, so whoever you send it to can listen wherever they already
-        are — no friction, no wrong app.
+        are. No friction, no wrong app.
       </p>
       <p>
         Every song you pass leaves a trace. Over time those traces shape your
-        <strong>Resonance</strong> — a generative, ever-evolving visual that's
+        <strong>Resonance</strong>, a generative visual that keeps changing and is
         unique to your listening. It's identity made of music, not metrics.
       </p>
       <div class="feature-grid">
@@ -59,9 +61,46 @@
         </div>
         <div class="feature">
           <h3>Living identity</h3>
-          <p>Your Resonance field grows from the music you share — no two alike.</p>
+          <p>Your Resonance field grows from the music you share, and no two are alike.</p>
         </div>
       </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how-it-works" class="section">
+      <h2>How your Resonance works</h2>
+      <p>
+        Most apps represent you with a number: followers, plays, a streak.
+        MuseShare represents you with something <strong>alive</strong>. Your
+        Resonance is a small, moving field that grows out of the music you share,
+        and no two people's are alike.
+      </p>
+      <p>
+        Under the hood it's a <strong>Neural Cellular Automaton</strong> (NCA): a
+        grid of cells where each cell follows the same small learned rule and can
+        only see its closest neighbors. No cell is told what the final picture
+        should look like. The shape builds itself out of thousands of local
+        interactions, the way structure forms in living tissue. Each song you pass
+        seeds and nudges the field, and the colors come from the artwork of the
+        music itself.
+      </p>
+      <p>
+        Because the rule is local and learned, the field behaves like something
+        organic: disturb it and it <strong>heals</strong>, growing back toward its
+        stable form. The interactive lizard we show you when you first open the app
+        does the same thing. Damage it, and watch it knit itself back together.
+      </p>
+      <p>
+        The idea of a learnable, self-organizing, self-healing cellular automaton
+        comes from the research article
+        <a href="https://distill.pub/2020/growing-ca/" target="_blank" rel="noopener">
+          “Growing Neural Cellular Automata”</a>
+        by Alexander Mordvintsev, Ettore Randazzo, Eyvind Niklasson, and Michael
+        Levin, published in <em>Distill</em> (2020). The onboarding lizard you
+        interact with is their pretrained demo, used with credit. MuseShare's own
+        Resonance is our own model and implementation, inspired by their work. See
+        <a href="#credits">Credits</a> for full attribution and licenses.
+      </p>
     </section>
 
     <!-- Privacy -->
@@ -79,7 +118,7 @@
       <ul>
         <li><strong>Account information.</strong> Your email address (used for sign-in and account recovery) and a username you choose.</li>
         <li><strong>Profile information.</strong> Your chosen username, an avatar color, and a profile image you select from album artwork, along with the album artwork you collect ("Cover Wall") and favorites.</li>
-        <li><strong>Music you share.</strong> The streaming links you paste and the song details we resolve from them — title, artist, and cover artwork — plus any optional note you add. To resolve a pasted link into matching links and metadata, the link is sent to Odesli (song.link).</li>
+        <li><strong>Music you share.</strong> The streaming links you paste and the song details we resolve from them (the title, artist, and cover artwork), plus any optional note you add. To resolve a pasted link into matching links and metadata, the link is sent to Odesli (song.link).</li>
         <li><strong>Social connections &amp; safety.</strong> Friend requests and connections, accounts you block, and reports you submit.</li>
         <li><strong>Resonance data.</strong> A generative visualization ("Resonance") derived from your sharing activity, plus a small color palette used to render it.</li>
         <li><strong>App preferences.</strong> Settings such as your theme are stored locally on your device.</li>
@@ -92,8 +131,8 @@
 
       <h3>How we use your information</h3>
       <ul>
-        <li>To provide MuseShare — sending passes, resolving links, rendering your profile and Resonance, and delivering messages.</li>
-        <li>To keep the service safe — supporting blocking, reporting, and account management.</li>
+        <li>To provide MuseShare: sending passes, resolving links, rendering your profile and Resonance, and delivering messages.</li>
+        <li>To keep the service safe by supporting blocking, reporting, and account management.</li>
         <li>To maintain and improve the reliability of the app.</li>
       </ul>
 
@@ -226,6 +265,55 @@
       <h3>11. Contact</h3>
       <p>
         Questions about these Terms? Email
+        <a href="mailto:support@museshare.app">support@museshare.app</a>.
+      </p>
+    </section>
+
+    <!-- Credits -->
+    <section id="credits" class="section legal">
+      <h2>Credits &amp; acknowledgements</h2>
+      <p>
+        MuseShare is built on the work of others, and we want to name it clearly.
+      </p>
+
+      <h3>Growing Neural Cellular Automata</h3>
+      <p>
+        The self-organizing, self-healing cellular automaton that inspired
+        Resonance, and the interactive lizard shown during onboarding, come from
+        <a href="https://distill.pub/2020/growing-ca/" target="_blank" rel="noopener">“Growing
+        Neural Cellular Automata”</a> by Alexander Mordvintsev, Ettore Randazzo,
+        Eyvind Niklasson, and Michael Levin, <em>Distill</em> (2020). Their demo
+        code is used under the <strong>Apache License 2.0</strong>, and their
+        pretrained model is used under
+        <strong>Creative Commons Attribution 4.0 (CC&nbsp;BY&nbsp;4.0)</strong>.
+        MuseShare's own Resonance is a separate model and implementation inspired
+        by their research.
+      </p>
+
+      <h3>twgl.js</h3>
+      <p>
+        The lizard demo renders with twgl.js, copyright Gregg Tavares, used under
+        the <strong>MIT License</strong>.
+      </p>
+
+      <h3>Odesli (song.link)</h3>
+      <p>
+        Cross-platform link resolution is powered by
+        <a href="https://odesli.co" target="_blank" rel="noopener">Odesli</a>
+        (song.link), which turns one streaming link into matching links across
+        services.
+      </p>
+
+      <h3>Infrastructure</h3>
+      <p>
+        Accounts and data are handled by Google Firebase. The app itself is built
+        with React Native and Expo. Each of these is used under its own
+        open-source or service license.
+      </p>
+
+      <p>
+        The applicable license notices are bundled with the app, and full license
+        texts are available on request at
         <a href="mailto:support@museshare.app">support@museshare.app</a>.
       </p>
     </section>
