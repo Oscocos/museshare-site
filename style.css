@@ -187,10 +187,6 @@ h3 {
 .legal strong {
   color: var(--ink);
 }
-.placeholder {
-  color: #b00020;
-  font-weight: 500;
-}
 
 /* ── Footer ─────────────────────────────────────────────────── */
 .footer {
